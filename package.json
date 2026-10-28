@@ -1,10 +1,14 @@
 {
   "name": "emplooyeedata",
   "version": "1.0.0",
-  "description": "",
+  "description": "UP Police Employee Data Scraper and Photo Archiver",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "part1": "node -e \"process.env.RUN_PART='1'; require('./index.js')\"",
+    "part2": "node -e \"process.env.RUN_PART='2'; require('./index.js')\"",
+    "all": "node -e \"process.env.RUN_PART='all'; require('./index.js')\"",
+    "test": "node test/pipeline_test.js"
   },
   "keywords": [],
   "author": "",

@@ -5,3 +5,6 @@ dist/
 build/
 .DS_Store
 employees.json
+employee_details.json
+details_progress.json
+employee_photos/
